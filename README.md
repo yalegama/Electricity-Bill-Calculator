@@ -4,9 +4,11 @@
 
 ## npm start
 
-## Available Scripts
+# Available Scripts
 
 ### `npm install @mui/material`
+
+installed material ui
 
 <!-- In the project directory, you can run:
 
