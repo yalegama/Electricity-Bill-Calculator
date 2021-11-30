@@ -1,24 +1,15 @@
-import { AppBar, Toolbar, Typography } from "@material-ui/core";
-import "./Header.css"
-import React from "react";
-
-
-
-function Header(){
-    return <AppBar>
-        <Toolbar>
-            <Typography 
-            variant="h5"
-            
-            > 
-            <span 
-            className="E"
-            >E</span>lectricity <span
-            className="E"
-            >B</span>ill <span
-            className="E"
-            >C</span>alculator </Typography>
-        </Toolbar>
-    </AppBar>
+import { AppBar, Toolbar } from '@material-ui/core'
+import React from 'react'
+function Header() {
+    return (
+        <div>
+            <AppBar>
+                <Toolbar>
+                    <img src="https://ceb.lk/assets/frontend/images/mainlogo5.png" alt="" srcset="" />
+                </Toolbar>
+            </AppBar>
+        </div>
+    )
 }
+
 export default Header
